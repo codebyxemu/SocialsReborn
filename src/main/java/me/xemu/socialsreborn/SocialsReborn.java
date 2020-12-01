@@ -15,6 +15,11 @@ public final class SocialsReborn extends JavaPlugin
 
         getLogger().info("Loading SocialsReborn");
 
+        getLogger().info("Creating Config");
+        getConfig().options().copyDefaults(true);
+        saveConfig();
+        getLogger().info("Created Config & Copied Defaults");
+
         getLogger().info("Loading Commands");
         registerCommands();
         getLogger().info("Loaded Commands");

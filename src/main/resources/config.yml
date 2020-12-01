@@ -1,0 +1,7 @@
+# SocialsReborn Configuration File
+
+Discord:
+  PermissionEnabled: false
+  Permission: ""
+  Link: "https://www.discord.gg/developers"
+  Output: "&8[&aDiscord&8] &7Join our discord! &a<link>"
