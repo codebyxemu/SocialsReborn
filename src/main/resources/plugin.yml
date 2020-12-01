@@ -1,0 +1,6 @@
+name: SocialsReborn
+version: ${project.version}
+main: me.xemu.socialsreborn.SocialsReborn
+api-version: 1.16
+authors: [ Xemu ]
+description: Discord, Teamspeak, Forums, Website Command
